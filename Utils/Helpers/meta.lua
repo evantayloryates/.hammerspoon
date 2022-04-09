@@ -26,7 +26,6 @@ function checkImports(path, imports, localExcludes)
 end
 
 function throwWarnings(missedImports, modulePath)
-	print('PRESENCE: ', modulePath:presence())
 	local strPrefix = concat('\n\nWARNING: Missing imports in ', (modulePath:presence() or './'), ': \n')
 	messages = map(missedImports, 
 		function(i) 

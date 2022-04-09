@@ -3,7 +3,8 @@ GLOBAL_EXCLUDES = {
 	'.',
 	'..',
 	'init.lua',
-	-- 'Spoons',
+	'.git',
+	'hs',
 }
 BASE_DIR = 'Users/etay/.hammerspoon/'
 APPLESCRIPTS_DIR = BASE_DIR .. 'AppleScripts'

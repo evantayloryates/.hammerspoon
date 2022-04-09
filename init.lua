@@ -1,7 +1,7 @@
 local MODULE_ROOT = ''
 local IMPORTS = {
 	'config',
-	'utils',
+	'Utils',
 	'ProfileLayouts',
 	'HotWindows',
 }
