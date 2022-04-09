@@ -1,9 +1,10 @@
 local MODULE_ROOT = 'Utils.Helpers.'
 local IMPORTS = {
+	'meta',
+	'misc',
+	'aliases',
 	'arrays',
 	'iterators',
-	'misc',
-	'meta',
 	'strings',
 }
 local EXCLUDES = {}

@@ -3,7 +3,6 @@ local IMPORTS = {
 	'Helpers',
 	'Printers',
 	'keybinds',
-	'aliases',
 }
 local EXCLUDES = {}
 
